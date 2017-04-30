@@ -1,7 +1,8 @@
 const restify = require('restify');
+const plugins = require('restify-plugins');
 const server = restify.createServer();
 
-server.use(restify.gzipResponse());
+server.use(plugins.gzipResponse());
 
 server.put('image', (req, res) => {
     res.send(200, 'OK!');

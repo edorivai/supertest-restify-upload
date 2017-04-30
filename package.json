@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "mocha": "2.4.5",
-    "restify": "4.0.4",
-    "supertest": "1.2.0"
+    "mocha": "^3.3.0",
+    "restify": "5",
+    "restify-plugins": "^1.6.0",
+    "supertest": "3"
   },
   "scripts": {
     "test": "mocha test.js"
